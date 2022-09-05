@@ -10,6 +10,8 @@
 	}
 
 	// font families
+	--ff-primary: 'Montserrat', sans-serif;
+	--ff-accent: 'Fraunces', serif;
 
 	// font wieghts
 	@each $font-weight, $value in variables.$font-weights {

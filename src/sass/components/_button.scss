@@ -1,0 +1,19 @@
+.button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	padding: 1.6rem;
+	font-weight: var(--fw-700);
+	color: var(--clr-neutral-100);
+	background-color: var(--clr-primary-400);
+	border: none;
+	border-radius: var(--borr-300);
+	transition: background-color 0.35s ease;
+	cursor: pointer;
+
+	&:hover,
+	&:focus-visible {
+		background-color: var(--clr-primary-700);
+	}
+}

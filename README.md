@@ -9,8 +9,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Links
 
-- Solution URL: [Frontend Mentor Solution Page](https://your-solution-url.com)
-- Live Site URL: [Github Pages Site](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/product-preview-card-component-rNBF6BUSb-)
+- Live Site URL: [Github Pages Site](https://karolbanat.github.io/product-preview-card-component/)
 
 ## Built with
 

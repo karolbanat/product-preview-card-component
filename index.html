@@ -22,8 +22,8 @@
 <body>
 
   <main>
-    <h1 class="visually-hidden">Product preview</h1>
-    <article aria-labelledby="product-heading" class="product-card">
+    <article class="product-card">
+      <h1 class="visually-hidden">Product preview</h1>
       <picture>
         <source media="(min-width: 800px)" srcset="./dist/images/image-product-desktop.jpg">
         <img src="./dist/images/image-product-mobile.jpg" alt="Gabrielle perfum product with leaves around."
@@ -31,7 +31,7 @@
       </picture>
       <section class="product-card__body | flow">
         <p class="product-card__kicker">Perfume</p>
-        <h2 id="product-heading" class="product-card__heading">Gabrielle Essence Eau De Parfum</h2>
+        <h2 class="product-card__heading">Gabrielle Essence Eau De Parfum</h2>
         <p>A floral, solar and voluptuous interpretation composed by Olivier Polge,
           Perfumer-Creator for the House of CHANEL.</p>
         <p class="product-card__price"><span data-price="current">$149.99</span><span

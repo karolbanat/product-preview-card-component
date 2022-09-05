@@ -1,7 +1,6 @@
 $breakpoints: (
 	small: 38em,
 	medium: 50em,
-	large: 62em,
 );
 
 $colors: (
@@ -32,4 +31,6 @@ $font-weights: (
 	700: 700,
 );
 
-$border-radius: ();
+$border-radius: (
+	300: 1rem,
+);

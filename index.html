@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
 
+  <meta name="description" content="Preview of the Gabrielle perfume product.">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./dist/images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,14 +26,17 @@
     <article aria-labelledby="product-heading" class="product-card">
       <picture>
         <source media="(min-width: 800px)" srcset="./dist/images/image-product-desktop.jpg">
-        <img src="./dist/images/image-product-mobile.jpg" class="product-card__image">
+        <img src="./dist/images/image-product-mobile.jpg" alt="Gabrielle perfum product with leaves around."
+             class="product-card__image">
       </picture>
       <section class="product-card__body | flow">
         <p class="product-card__kicker">Perfume</p>
         <h2 id="product-heading" class="product-card__heading">Gabrielle Essence Eau De Parfum</h2>
         <p>A floral, solar and voluptuous interpretation composed by Olivier Polge,
           Perfumer-Creator for the House of CHANEL.</p>
-        <p class="product-card__price"><span>$149.99</span><s>$169.99</s></p>
+        <p class="product-card__price"><span data-price="current">$149.99</span><span
+                data-price="previous"><span
+                  class="visually-hidden">Previous price</span>$169.99</span></p>
         <button class="button"><img src="./dist/images/icon-cart.svg" alt=""> Add to Cart</button>
       </section>
     </article>
